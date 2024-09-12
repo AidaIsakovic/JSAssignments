@@ -1,63 +1,40 @@
-//let x = 5 + 5; // x = 10//
-//let y = x + 5; // y = 15 //
-//let z = y + y; // z = 30 //
-//console.log(z + z); // 60 //
+//Uppgift 1
+let speedInput = 72;
+let speedOutput = 0;
+speedOutput = speedInput /3.6;
+console.log(speedOutput);
 
-//let firstNumber = 7;
-//let secondNumber = 2;
-//let seven=7;
-//let answer = 0
-// 1 + 2 = 3
-//answer = firstNumber + secondNumber;
-//console.log(answer);
+//uppgift2
+let minutesInput = 3;
+let secondsOutput= 0;
+secondsOutput = minutesInput *60;
+console.log(secondsOutput);
 
-//answer = firstNumber - secondNumber;
-//console.log(answer);
+//uppgift 3
+let divisionInput1 = 11;
+let divisionInput2 = 4;
+divisionOutput = divisionInput1 / divisionInput2;
+console.log(divisionOutput);
 
-//answer = firstNumber * secondNumber;
-//console.log(answer);
-//answer = firstNumber / secondNumber;
-//console.log(answer);
+//uppgift 4
+let remainder1 = 11;
+let remainder2 = 4;
+remainder =remainder1 % remainder2;
+console.log(remainder);
 
-//answer = firstNumber % secondNumber;
-//console.log(answer);
+//uppgift 5
+const radius = 2;
+const pi = 3.14;
+const areaOfCircle = radius * radius * pi;
+console.log(areaOfCircle);
 
-//let gold = 50;
-//gold + 10;
-//console.log(gold);
+//uppgift 6
+let plus =11;
+plus = -plus;
+console.log(plus);
 
-//gold = gold + 10;
-//console.log(gold);
-
-//gold += 10;
-//console.log(gold); // 70
-
-//gold *= 10;
-//console.log(gold); // 700
-
-//gold /= 10;
-//console.log(gold); // 70
-
-//gold -= 10;
-//console.log(gold); // 60
-
-//gold %= 2;
-//console.log(gold); // 0
-
-//let numberOfStudents = 0;
-
-//numberOfStudents += 1;
-//console.log(numberOfStudents); // 1
-
-//numberOfStudents++;
-//console.log(numberOfStudents); // 2
-
-//++numberOfStudents;
-//console.log(numberOfStudents); // 3
-
-//console.log(numberOfStudents++); // 3 why?
-//console.log(numberOfStudents); // 4 why???
-//console.log(++numberOfStudents); // 5
-
-
-
+//uppgift 9
+let seconds =111;
+let minutes = seconds % 60;
+console.log(seconds);
+MATH.floor()
