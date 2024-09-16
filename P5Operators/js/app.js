@@ -4,7 +4,7 @@ let speedOutput = 0;
 speedOutput = speedInput /3.6;
 console.log(speedOutput);
 
-//uppgift2
+//uppgift 2
 let minutesInput = 3;
 let secondsOutput= 0;
 secondsOutput = minutesInput *60;
@@ -33,8 +33,20 @@ let plus =11;
 plus = -plus;
 console.log(plus);
 
+//uppgift 7
+
+//uppgift 8
+let sideA = 3;
+let sideB = 4;
+let hypotenuse;
+
+hypotenuse=Math.pow(sideA, 2) + Math.pow(sideB, 2);
+hypotenuse = Math.sqrt(squareOfAAndB);
+console.log(hypotenuse);
+
 //uppgift 9
 let seconds =111;
-let minutes = seconds % 60;
-console.log(seconds);
-MATH.floor()
+let minutes;
+minutes = Math.floor( seconds / 60);
+console.log(minutes)
+
