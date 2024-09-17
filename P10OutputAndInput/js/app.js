@@ -9,10 +9,10 @@ console.log(multiplyBySelf(4));
 //Write a function that has 2 numbers as parameters and averages them and returns the result.
 // Input: 2, 6
 // Output: 4
-function add(firstNumber, secondNumber) {
+function average(firstNumber, secondNumber) {
   return (firstNumber+secondNumber) / 2;
 }
-console.log(add(2, 6));
+console.log(average(2, 6));
 
 function welcome(firstName, lastName) {
   return "Welcome " + firstName + lastName;
