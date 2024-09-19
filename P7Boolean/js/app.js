@@ -42,11 +42,11 @@ console.log("player can jump!")}
 
 else if (playerHasJetPack) {
   // runs when playes has jetpack = true
-console.log("player can jet away!");
+console.log("player can jet away!")
 }
 
- else {
-   console.log("player is NOT on the ground!");
-   console.log("player CANNOT jump!");
+else {
+   console.log("player is NOT on the ground!")
+   console.log("player CANNOT jump!")
 }
 
