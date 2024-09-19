@@ -28,25 +28,27 @@
 //console.log(isTeenager);
 //console.log(isAdult);
 
-let heightFromGround = 20;
+let heightFromGround = 0;
 let playerTouchGround = heightFromGround === 0;
 let playerHasJetPack = false;
 
-let playerTouchGround = true;
-console.log("player can jump!")
-if(playerTouchGround){console.log("player is on the ground!")
+if (playerTouchGround) {
+console.log("player can jump!");
+console.log("player is on the ground!");
+}
 
-  let playerTouchGroundnot = false
-if(!playerTouchGroundnot){console.log("player is on the ground!");
-console.log("player can jump!")}
+  if (playerTouchGround){
+console.log("player is on the ground!");
+console.log("player can jump!");
+}
 
 else if (playerHasJetPack) {
   // runs when playes has jetpack = true
-console.log("player can jet away!")
+console.log("player can jet away!");
 }
 
 else {
-   console.log("player is NOT on the ground!")
-   console.log("player CANNOT jump!")
+   console.log("player is NOT on the ground!");
+   console.log("player CANNOT jump!");
 }
 
