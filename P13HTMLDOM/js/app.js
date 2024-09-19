@@ -1,11 +1,11 @@
-// referance text0 and assign it to the variable called "textfiel0"
+// reference text0 and assign it to the variable called "textfiel0"
 const textField0 = document.getElementById("text0");
-// take textfield0 and change it to Aida
+// take "textfield0" and change it to Aida
 textField0.innerHTML = average(4, 13)
 textField0.innerHTML = multiplyBySelf(6);
-textField0.innerHTML = randomNumber(3);
+textField0.innerHTML = randomNumber(3).toString();
 
-//referance header5 and assign it to the variable called headertext5
+//reference header5 and assign it to the variable called headertext5
 const headerText5 = document.getElementById("header5");
 // take headertext5 and change it to this is ma website
 headerText5.innerHTML = "this is ma website"
