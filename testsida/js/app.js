@@ -1,12 +1,27 @@
+// Document elements
 // looks for "text0". assigns that to the variable called "textfield"
 const textField0 = document.getElementById("text0");
-textField0.innerHTML = showStylizedScore(786);
+
+//BUTTONS
+const increaseScoreButton = document.getElementById("button0");
+//Internal Variables
+let score = 0;
+
+// process (what is going to happen in what sequence?)
+increaseScoreButton.addEventListener("click", () => {
+  increaseScoreByOne();
+
+});
 
 
-function showScore(inputNumber) {
-  return inputNumber * 100; //output is a number
+// controllers
+
+function increaseScoreByOne() {
+  score++;
+  updateScoreText(score);
 }
 
-function showStylizedScore(scoreInput) {
-  return "Your score is: " + scoreInput * 100;
+// The view
+function updateScoreText (newText) {
+  textField0.innerHTML = newText;
 }
